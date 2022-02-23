@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 :root {
     --main-color: #6366F1;
     --sub-color: #C7D2FE;
     --light-color: #EEF2FF;
 }
+
+/* RESETS */
 
 * {
    margin: 0;
@@ -19,6 +23,8 @@ button {
 	outline: inherit;
 }
 
+/* CONTAINER */
+
 .container {
     height: 100vh;
     width: 100vw;
@@ -26,6 +32,8 @@ button {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 4fr;
+
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 /* SIDEBAR */
