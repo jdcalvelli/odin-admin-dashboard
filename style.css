@@ -167,12 +167,13 @@ button {
     grid-template-rows: auto;
 }
 
-.main-content .projects-header {
+.projects-header {
     grid-column: 1;
     grid-row: 1;
 
     margin-top: 1.4rem;
     margin-bottom: 0.8rem;
+    margin-left: 2rem;
 }
 
 .projects-area {
