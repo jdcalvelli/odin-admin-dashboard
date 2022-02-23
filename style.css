@@ -153,4 +153,119 @@ button {
     background-color: grey;
     grid-column: 2;
     grid-row: 2;
+
+    /* inner grid */
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto;
+}
+
+.main-content .projects-header {
+    grid-column: 1;
+    grid-row: 1;
+
+    margin-top: 1.4rem;
+    margin-bottom: 0.8rem;
+}
+
+.projects-area {
+    grid-column: 1;
+    grid-row: 2;
+
+    /* inner grid */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 16px;
+
+    justify-items: center;
+}
+
+.project-card {
+    width: 350px;
+    height: 200px;
+    
+    background-color: aliceblue;
+
+    border-radius: 16px;
+
+    padding: 12px;
+}
+
+.project-card h4 {
+    margin-top: 2rem;
+}
+
+.icon-area{
+    display: flex;
+    justify-content: end;
+    
+    gap: 24px;
+
+    font-size: 1.4rem;
+
+    margin-top: 1rem;
+}
+
+.announcements-header {
+    grid-column: 2;
+    grid-row: 1;
+
+    margin-top: 1.4rem;
+    margin-bottom: 0.8rem;
+}
+
+.right-side-bottom {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.announcements-area {
+    width: 80%;
+    height: 350px;
+
+    background-color: aliceblue;
+
+    border-radius: 16px;
+
+    padding: 24px;
+}
+
+.announcement-card {
+    border-bottom: 1px solid grey;
+}
+
+.announcement-card h4 {
+    margin-top: 24px;
+}
+
+.trending-header {
+    margin-top: 1.4rem;
+    margin-bottom: 0.8rem;
+}
+
+.trending-area {
+    width: 80%;
+    height: 205px;
+
+    background-color: aliceblue;
+
+    border-radius: 16px;
+
+    padding: 24px;
+}
+
+.trending-card {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.trending-card .img-placeholder {
+    height: 3rem;
+    width: 3rem;
+    background-color: black;
+    border-radius: 100%;
+
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
