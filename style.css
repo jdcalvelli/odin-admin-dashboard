@@ -1,3 +1,9 @@
+:root {
+    --main-color: #6366F1;
+    --sub-color: #C7D2FE;
+    --light-color: #EEF2FF;
+}
+
 * {
    margin: 0;
    padding: 0; 
@@ -14,7 +20,6 @@ button {
 }
 
 .container {
-
     height: 100vh;
     width: 100vw;
 
@@ -26,13 +31,13 @@ button {
 /* SIDEBAR */
 
 .sidebar {
-    background-color: red;
+    background-color: var(--main-color);
     grid-column: 1;
     grid-row: 1 / 3;
 
     padding: 2rem;
 
-    color: white;
+    color: var(--light-color);
 }
 
 .sidebar h1 {
@@ -58,7 +63,7 @@ button {
 /* HEADER */
 
 .header {
-    background-color: aqua;
+    background-color: var(--light-color);
     grid-column: 2;
     grid-row: 1;
 
@@ -104,7 +109,7 @@ button {
 .r1c2 .img-placeholder {
     height: 3rem;
     width: 3rem;
-    background-color: black;
+    background-color: var(--sub-color);
     border-radius: 100%;
 
     margin-left: 2rem;
@@ -124,7 +129,7 @@ button {
 .r2c1 .img-placeholder {
     height: 4rem;
     width: 4rem;
-    background-color: black;
+    background-color: var(--sub-color);
     border-radius: 100%;
 
     margin-right: 2rem;
@@ -145,12 +150,14 @@ button {
 
     border-radius: 16px;
 
-    background-color: blueviolet;
+    background-color: var(--main-color);
+
+    color: var(--light-color);
 }
 
 /* MAIN CONTENT */
 .main-content {
-    background-color: grey;
+    background-color: lightgrey;
     grid-column: 2;
     grid-row: 2;
 
@@ -185,7 +192,7 @@ button {
     width: 350px;
     height: 200px;
     
-    background-color: aliceblue;
+    background-color: var(--light-color);
 
     border-radius: 16px;
 
@@ -224,7 +231,7 @@ button {
     width: 80%;
     height: 350px;
 
-    background-color: aliceblue;
+    background-color: var(--light-color);
 
     border-radius: 16px;
 
@@ -248,7 +255,7 @@ button {
     width: 80%;
     height: 205px;
 
-    background-color: aliceblue;
+    background-color: var(--light-color);
 
     border-radius: 16px;
 
@@ -263,7 +270,7 @@ button {
 .trending-card .img-placeholder {
     height: 3rem;
     width: 3rem;
-    background-color: black;
+    background-color: var(--sub-color);
     border-radius: 100%;
 
     margin-left: 1rem;
