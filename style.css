@@ -23,6 +23,10 @@ button {
 	outline: inherit;
 }
 
+input {
+    all: unset;
+  }
+
 /* CONTAINER */
 
 .container {
@@ -99,6 +103,9 @@ button {
 
 .r1c1 input {
     width: 70%;
+    border-radius: 16px;
+
+    background-color: lightgrey;
 }
 
 .r1c2 {
