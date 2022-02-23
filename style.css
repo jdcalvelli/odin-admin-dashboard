@@ -86,6 +86,8 @@ input {
     grid-template-rows: 1fr 1fr;
 
     gap: 1rem;
+
+    filter: drop-shadow(0 5px 10px grey);
 }
 
 .r1c1 {
